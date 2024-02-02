@@ -1,5 +1,11 @@
+<script setup>
+import { SpeedInsights } from "@vercel/speed-insights/next";
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtPage />
+
+    <SpeedInsights />
   </div>
 </template>
